@@ -1,0 +1,80 @@
+[
+    {
+      "id": "01",
+      "logo": "",
+      "position": "Technical Engineer",
+      "companyName":"Google LLC",
+      "jobType":"Remote",
+      "location":"Dhaka, Bangladesh",
+      "salary":"Salary : 100K - 150K"
+      
+    },
+    {
+      "id": "02",
+      "logo": "",
+      "position": "Senior Product Designer",
+      "companyName":"Netflix",
+      "jobType":"Full Time",
+      "location":"Dhaka, Bangladesh",
+      "salary":"Salary : 110K - 130K"
+    },
+    {
+      "id": "03",
+      "logo": "",
+      "position": "Technical Database Engineer",
+      "companyName":"Google LLC",
+      "jobType":"Remote",
+      "location":"Dhaka, Bangladesh",
+      "salary":"Salary : 150K - 200K"
+    },
+    {
+      "id": "04",
+      "logo": "",
+      "position": "Software Engineer",
+      "companyName":"Tesla",
+      "jobType":"Full Time",
+      "location":"Dhaka, Bangladesh",
+      "salary":"Salary : 100K - 150K"
+    },
+    {
+        "id": "05",
+        "logo": "",
+        "position": "Project Manager",
+        "companyName":"Mir Real Estate Limited",
+        "jobType":"Remote",
+        "location":"Dhaka, Bangladesh",
+        "salary":"Salary : 35K - 45K"
+      },
+      {
+        "id": "06",
+        "logo": "",
+        "position": "Senior Executive",
+        "companyName":"Chaity Group",
+        "jobType":"Full Time",
+        "location":"Dhaka, Bangladesh",
+        "salary":"Salary : 70K - 75K"
+      },
+      {
+        "id": "07",
+        "logo": "",
+        "position": "Computer Operator",
+        "companyName":"PATH BANGLA",
+        "jobType":"Remote",
+        "location":"Dhaka, Bangladesh",
+      "salary":"Salary : 10K - 15K"
+      },{
+        "id": "07",
+        "logo": "",
+        "position": "Accounts Officer",
+        "companyName":"Rakha Prokashoni Limited",
+        "jobType":"Full Time",
+        "location":"Dhaka, Bangladesh",
+        "salary":"Salary : 50K - 60K"
+      }
+  ]
+  
+  
+  
+  
+  
+  
