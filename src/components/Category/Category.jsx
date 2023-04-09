@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 
 const Category = () => {
   const [category, setCategory] = useState([]);
-  console.log(category);
-  // const { icon, title, vacancy } = category;
+  
 
   useEffect(() => {
     fetch("category.json")
