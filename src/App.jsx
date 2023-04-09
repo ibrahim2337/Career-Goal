@@ -1,3 +1,4 @@
+import Header from "./modules/Header/Header"
 
 
 function App() {
@@ -5,7 +6,8 @@ function App() {
 
   return (
     <div className="App">
-      
+      <Header />
+
     </div>
   )
 }
