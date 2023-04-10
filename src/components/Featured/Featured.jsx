@@ -22,7 +22,7 @@ const Featured = () => {
         <ul className="grid grid-cols-2 gap-5">
           {feature.map((list) => (
             <div className="border-solid border-2 px-8 py-[4rem] rounded-md">
-              <img src={list.icon} alt="" />
+              <img className="h-12" src={list.logo} alt="" />
               <h2>{list.position}</h2>
               <p>{list.companyName}</p>
               <p>{list.jobType}</p>

@@ -1,7 +1,8 @@
-import Category from "./components/Category/Category"
-import Featured from "./components/Featured/Featured"
+
+
 import Footer from "./components/Footer/Footer"
 import Header from "./modules/Header/Header"
+import Main from "./modules/Main/Main"
 
 
 function App() {
@@ -10,9 +11,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Category />
-      <Featured />
+      <Main />
       <Footer />
+      
     </div>
   )
 }

@@ -1,7 +1,7 @@
 [
     {
       "id": "01",
-      "logo": "",
+      "logo": "https://i.ibb.co/1vy9gzj/google.png",
       "position": "Technical Engineer",
       "companyName":"Google LLC",
       "jobType":"Remote",
@@ -11,7 +11,7 @@
     },
     {
       "id": "02",
-      "logo": "",
+      "logo": "https://i.ibb.co/kmy4gmg/netflix.png",
       "position": "Senior Product Designer",
       "companyName":"Netflix",
       "jobType":"Full Time",
@@ -20,7 +20,7 @@
     },
     {
       "id": "03",
-      "logo": "",
+      "logo": "https://i.ibb.co/1vy9gzj/google.png",
       "position": "Technical Database Engineer",
       "companyName":"Google LLC",
       "jobType":"Remote",
@@ -29,7 +29,7 @@
     },
     {
       "id": "04",
-      "logo": "",
+      "logo": "https://i.ibb.co/vmkfwbq/tesla.png",
       "position": "Software Engineer",
       "companyName":"Tesla",
       "jobType":"Full Time",
@@ -38,12 +38,12 @@
     },
     {
         "id": "05",
-        "logo": "",
-        "position": "Project Manager",
-        "companyName":"Mir Real Estate Limited",
+        "logo": "https://i.ibb.co/ZYv4XVf/microsoft.png",
+        "position": "Jr.Web Developer",
+        "companyName":"Microsoft",
         "jobType":"Remote",
         "location":"Dhaka, Bangladesh",
-        "salary":"Salary : 35K - 45K"
+        "salary":"Salary : 55K - 75K"
       },
       {
         "id": "06",
@@ -64,15 +64,23 @@
       "salary":"Salary : 10K - 15K"
       },{
         "id": "07",
-        "logo": "",
+        "logo": "https://i.ibb.co/Ptg8sLn/walton.png",
         "position": "Accounts Officer",
-        "companyName":"Rakha Prokashoni Limited",
+        "companyName":"Walton",
         "jobType":"Full Time",
         "location":"Dhaka, Bangladesh",
         "salary":"Salary : 50K - 60K"
       }
   ]
+ 
+
+
   
+  
+  
+  
+  
+
   
   
   
