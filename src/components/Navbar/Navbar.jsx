@@ -20,10 +20,8 @@ const Navbar = () => {
             <h1>Blog</h1>
           </div>
         </div>
-
-        <button className="rounded-md bg-blue-400 px-3 py-2 font-bold text-cyan-50 ">
-          Star Applying
-        </button>
+        <button type="button" className="px-6 py-2 font-bold text-cyan-50 border-md rounded-md bg-blue-500">Star Applying</button>
+        
       </div>
       
     </div>
