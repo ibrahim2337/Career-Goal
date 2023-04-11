@@ -30,10 +30,10 @@ const Featured = () => {
                 <h2 className="mt-4">{list.position}</h2>
                 <p>{list.companyName}</p>
                 <div className="flex items-center gap-2">
-                  <button className="px-2 py-1  border rounded-md ">
+                  <button className="px-2 py-1  border rounded-md text-blue-600">
                     {list.jobType}
                   </button>
-                  <button className="px-2 py-1  border rounded-md ">
+                  <button className="px-2 py-1  border rounded-md text-blue-600">
                     Full Time
                   </button>
                 </div>

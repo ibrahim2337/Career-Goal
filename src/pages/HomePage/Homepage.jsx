@@ -4,13 +4,13 @@ import Category from "../../components/Category/Category";
 import Featured from "../../components/Featured/Featured";
 
 const Homepage = () => {
-    return (
-        <div>
-            <Banner />
-            <Category />
-            <Featured />
-        </div>
-    );
+  return (
+    <div>
+      <Banner />
+      <Category />
+      <Featured />
+    </div>
+  );
 };
 
 export default Homepage;
