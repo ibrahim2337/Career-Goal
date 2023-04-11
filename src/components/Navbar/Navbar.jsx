@@ -17,7 +17,7 @@ const Navbar = () => {
                     </div>
 
                     <div>
-                        <NavLink to={"/appliedJob"} className={({isActive}) => isActive ? "active" : 'default'}>Applied Jobs</NavLink>
+                        <NavLink to={"/applied-job"} className={({isActive}) => isActive ? "active" : 'default'}>Applied Jobs</NavLink>
                     </div>
                     
                     <div>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>
                 <button
                     type="button"
-                    className="px-6 py-2 font-bold text-cyan-50 border-md rounded-md bg-blue-500"
+                    className="px-6 py-2 font-bold text-cyan-50 border-md rounded-md bg-blue-500 bg-gradient-to-r from-purple-500 to-blue-400"
                 >
                     Star Applying
                 </button>

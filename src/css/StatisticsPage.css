@@ -1,0 +1,21 @@
+.pie-chart {
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .recharts-legend-item {
+    padding-left: 2.5rem;
+  }
+  
+  @media (max-width: 640px) {
+    .recharts-responsive-container {
+      width: 95% !important;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1199px){
+    .recharts-responsive-container {
+      width: 70% !important;
+    }
+  }

@@ -17,10 +17,11 @@ const Banner = () => {
                     </p>
                     <button
                         type="button"
-                        className="px-6 py-2 font-bold text-cyan-50 border-md rounded-md bg-blue-500 "
+                        className="px-6 py-2 font-bold text-cyan-50 border-md rounded-md bg-blue-500  bg-gradient-to-r from-purple-500 to-blue-400 "
                     >
                         Get Started
                     </button>
+                    
                 </div>
 
                 <div>

@@ -7,6 +7,7 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import Homepage from "./pages/HomePage/Homepage";
 import StatisticsPage from "./pages/StatisticsPage/StatisticsPage";
 import BlogPage from "./pages/BlogPage/BlogPage";
+import AppliedJobPage from "./pages/AppliedJobPage/AppliedJobPage";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: "/statistics",
                 element: <StatisticsPage />,
+            },
+            {
+                path: "/applied-job",
+                element: <AppliedJobPage />
             },
             {
                 path: "/blog",
