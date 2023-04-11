@@ -43,7 +43,7 @@ const Featured = () => {
                 </div>
                 <button
                   type="button"
-                  className="px-6 py-2 font-bold text-cyan-50 bg-gradient-to-r from-purple-500 to-blue-400  border rounded-md bg-blue-500 mt-2"
+                  className="px-6 py-2 font-bold text-cyan-50 bg-gradient-to-r from-purple-500 to-blue-400  border rounded-md bg-blue-500 mt-2  hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500  delay-75 duration-100 transition-all"
                 >
                   View Details
                 </button>
@@ -54,7 +54,7 @@ const Featured = () => {
           <button
             onClick={() => setSeeAll(!seeAll)}
             type="button"
-            className="px-6 py-2 font-bold bg-gradient-to-r from-purple-500 to-blue-400 text-cyan-50 border rounded-md bg-blue-500 mt-2"
+            className="px-6 py-2 font-bold bg-gradient-to-r from-purple-500 to-blue-400 text-cyan-50 border rounded-md bg-blue-500 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500  delay-75 duration-100 transition-all mt-2"
           >
             {seeAll ? "See Less" : "See All"}
           </button>
