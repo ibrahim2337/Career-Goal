@@ -6,20 +6,22 @@ const Navbar = () => {
         <div className="bg-slate-100">
             <div className="flex justify-around items-center h-20  ">
                 <div>
-                    <NavLink to={"/"} className="text-3xl font-bold text-blue-400">
+                    <NavLink to={"/"} className="text-3xl font-bold text-blue-500">
                         CareerGoal
                     </NavLink>
                 </div>
 
                 <div className="flex justify-between items-center gap-4 font-medium">
                     <div>
-                        <NavLink to={"/statistics"}>Statistics</NavLink>
+                        <NavLink to={"/statistics"} className={({isActive}) => isActive ? "active" : 'default'}>Statistics</NavLink>
                     </div>
+
                     <div>
-                        <h1>Applied Jobs</h1>
+                        <NavLink to={"/appliedJob"} className={({isActive}) => isActive ? "active" : 'default'}>Applied Jobs</NavLink>
                     </div>
+                    
                     <div>
-                        <NavLink to={"/blog"}>Blog</NavLink>
+                        <NavLink to={"/blog"} className={({isActive}) => isActive ? "active" : 'default'}>Blog</NavLink>
                     </div>
                 </div>
                 <button

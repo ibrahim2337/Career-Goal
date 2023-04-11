@@ -2,13 +2,13 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 const Featured = () => {
-    const [feature, setCategory] = useState([]);
+    const [feature, setFeature] = useState([]);
     const [seeAll, setSeeAll] = useState(false);
 
     useEffect(() => {
         fetch("feature.json")
             .then((res) => res.json())
-            .then((data) => setCategory(data));
+            .then((data) => setFeature(data));
     }, []);
     return (
         <div className="container mx-auto mt-14">
