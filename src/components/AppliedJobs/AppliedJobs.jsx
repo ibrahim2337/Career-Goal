@@ -8,7 +8,7 @@ const AppliedJobs = ({ data }) => {
 
   return (
     <div className="my-5">
-      <div className="mx-52 flex justify-between items-center border p-5 ">
+      <div className="mx-52 flex justify-between items-center border rounded bg-gray-100 p-5 ">
         <div className="flex gap-10">
           <div className="">
             <img className="h-10 w-20 mt-11" src={logo} alt="" />

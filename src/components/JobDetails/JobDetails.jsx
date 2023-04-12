@@ -25,35 +25,36 @@ const JobDetails = () => {
 };
 
   return (
-    <div className="px-40 flex gap-5 m-10">
-      <div className="p-5 border">
-        <p className="">Job Description:{singleJobData.jobDescription}</p>
+    <div className=" px-40 flex justify-around gap-5 m-10 container mx-auto">
+      <div className="">
+        <p className="mb-5"> <span className="font-bold text-lg">Job Description: </span> {singleJobData.jobDescription} </p>
         
-        <h3 className="">Job Responsibility:{singleJobData.jobResponsibility}</h3>
+        <p className="mb-5"> <span className="font-bold text-lg">Job Responsibility: </span>{singleJobData.jobResponsibility}</p>
         
         
-        <h3 className="">Educational Requirements:{singleJobData.educationalRequirements}</h3>
+        <p className="mb-5"> <span className="font-bold text-lg">Educational Requirements: </span>{singleJobData.educationalRequirements}</p>
         
-        <h3 className="">Experiences:{singleJobData.experiences}</h3>
+        <p className="mb-5"> <span className="font-bold text-lg">Experiences: </span>{singleJobData.experiences}</p>
         
       </div>
-      <div className="p-5 border bg-slate-200">
-        <h1 className="font-bold">Job Details</h1>
+      <div className="p-5 border rounded bg-purple-100">
+        <h1 className="font-bold mb-1">Job Details</h1>
         <hr />
-        <h3>
+        
+        <p className="mb-1">
           {singleJobData.salary}
-        </h3>
-        <h3>
+        </p>
+        <p className="mb-3">
           Job Title : {singleJobData.position}
-        </h3>
-        <h1>Contact Information</h1>
+        </p>
+        <h1 className="mb-1 font-bold">Contact Information</h1>
         <hr />
-        <h3>
+        <p className="mb-1">
           Phone:{singleJobData.phone}
-        </h3>
-        <h3>
+        </p>
+        <p className="mb-1">
           Email:{singleJobData.email}
-        </h3>
+        </p>
         <div className="flex gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
   <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -65,7 +66,8 @@ const JobDetails = () => {
         </div>
         <button
           type="button"
-          className="px-6 py-2 font-bold text-cyan-50 border-md rounded-md bg-blue-500 bg-gradient-to-r from-purple-500 to-blue-400 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500  delay-75 duration-100 transition-all" onClick={()=> setToLocalStorage()}
+          className="container mx-auto py-2 font-bold text-cyan-50 border-md rounded-md bg-blue-500 bg-gradient-to-r from-purple-500 to-blue-400 hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500  delay-75 duration-100 transition-all mt-2 "
+           onClick={()=> setToLocalStorage()}
         >
         Apply Now
         </button>
