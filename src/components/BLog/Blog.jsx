@@ -2,15 +2,15 @@ import React from "react";
 
 const Blog = () => {
     return (
-        <section className="">
+        <section className="mt-20">
             <div className="container px-4 py-8 mx-auto md:p-8">
-                <h2 className="text-2xl font-bold sm:text-4xl">
+                <h2 className="text-2xl text-center font-bold sm:text-4xl">
                     Welcome To Blog
                 </h2>
                 <p className="mt-4 mb-8 "></p>
                 <div className="space-y-4">
                     <details className="w-full border rounded-lg">
-                        <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
+                        <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 cursor-pointer">
                             What is the purpose of react router?
                         </summary>
                         <p className="px-4 py-6 pt-0 ml-4 -mt-4 ">
@@ -25,7 +25,7 @@ const Blog = () => {
                     </details>
 
                     <details className="w-full border rounded-lg">
-                        <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
+                        <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 cursor-pointer">
                             How does Context API works?
                         </summary>
                         <p className="px-4 py-6 pt-0 ml-4 -mt-4 ">
@@ -46,7 +46,7 @@ const Blog = () => {
                     </details>
 
                     <details className="w-full border rounded-lg">
-                        <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">
+                        <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400 cursor-pointer">
                             What is useRef hook in react?
                         </summary>
                         <p className="px-4 py-6 pt-0 ml-4 -mt-4 ">

@@ -3,9 +3,9 @@ import bannerImg from "../../assets/hardy.png";
 
 const Banner = () => {
     return (
-        <div className="bg-slate-100">
-            <div className="flex justify-between container mx-auto items-center px-[6.5rem] ">
-                <div className="space-y-4">
+        <div className="bg-slate-100 py-10 md:py-0">
+            <div className="flex justify-between container mx-auto items-center lg:px-[6.5rem] ">
+                <div className="space-y-4 text-center lg:text-left px-5 md:px-0">
                     <h1 className="text-5xl font-bold">
                         One Step <br /> Closer To Your <br />{" "}
                         <span className="text-blue-400 ">Dream Job</span>
@@ -24,7 +24,7 @@ const Banner = () => {
                     
                 </div>
 
-                <div>
+                <div className="hidden md:block">
                     <img className="h-[36.5rem]" src={bannerImg} alt="" />
                 </div>
             </div>

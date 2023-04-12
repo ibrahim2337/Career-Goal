@@ -13,19 +13,32 @@ const Category = () => {
     return (
         <div className="container mx-auto mt-14">
             <div className="text-center">
-                <h1 className="font-bold text-4xl">Job Category List</h1>
-                <p>
+                <h1 className="font-bold text-4xl mb-3">Job Category List</h1>
+                <p className="hidden md:block">
+                    Explore thousands of job opportunities with all the
+                    information <br />
+                    you need. Its your future
+                </p>
+                <p className="block md:hidden">
                     Explore thousands of job opportunities with all the
                     information you need. Its your future
                 </p>
             </div>
-            <div className="container mx-auto px-[6.5rem] mt-8">
-                <ul className="flex justify-between">
+            <div className="container mx-auto mt-10">
+                <ul className="flex-col md:flex-row px-10 md:px-0 md:flex md:justify-evenly">
                     {category.map((items) => (
-                        <div className="border-solid border-2 bg-slate-100 p-5 rounded-md drop-shadow-lg ">
-                            <img className="h-12" src={items.icon} alt="" />
-                            <h2 className="mt-6">{items.title}</h2>
-                            <p className="mt-1">{items.vacancy}</p>
+                        <div className="my-5 md:my-0 border-solid border-2 bg-slate-100 p-5 rounded-md drop-shadow-lg cursor-pointer">
+                            <img
+                                className="h-12 w-12"
+                                src={items.icon}
+                                alt=""
+                            />
+                            <h2 className="mt-6 font-semibold text-lg">
+                                {items.title}
+                            </h2>
+                            <p className="mt-1 text-sm text-gray-700">
+                                {items.vacancy}
+                            </p>
                         </div>
                     ))}
                 </ul>
